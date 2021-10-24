@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    
+    <div class="container my-5 d-flex justify-content-between">
+        <div class="users me-5">
+            <h2 class="users-heading text-center">Users</h2>
+            
+        </div>
+        <div class="posts me-5">
+            <h2 class="posts-heading text-center">Posts</h2>
+
+        </div>
+        <div class="comments">
+            <h2 class="comments-heading text-center">Comments</h2>
+
+        </div>
+    </div>
+    
+
+
+    <template class="users-template">
+        <ul class="list-group">
+            <li class="users__user list-group-item">
+                <h3 class="user__username">Bret</h3>
+                <p class="user__name">Leanne Graham</p>
+                <a class="user__email mb-2" href="mailto: Sincere@april.biz">Sincere@april.biz</a>
+                <address class="user__address">
+                    street: Kulas Light
+                    suite: Apt. 556
+                    city: Gwenborough
+                    zipcode: 92998-3874
+                </address>
+                <a class="user__location me-4" href="https://www.google.com/maps/@-37.3159,81.1496,15z"
+                    target="blank">Location</a>
+                <a class="user__phone me-4" href="tel: 1-770-736-8031">Tel me</a>
+                <a class="user__web-site" href="https://anastasia.net" target="blank">Web Site</a>
+                <pre class="user__company">
+company:
+    name: Deckow-Crist
+    catchPhrase: Proactive didactic contingency
+    bs: synergize scalable supply-chains
+                    </pre>
+                <button type="button" class="user__btn btn btn-success">Posts</button>
+            </li>
+        </ul>
+    </template>
+
+
+    <template class="posts-template">
+        <ul class="list-group">
+            <li class="posts__post list-group-item">
+                <h4 class="post__title">sunt aut facere repellat provident occaecati excepturi optio reprehenderit</h4>
+                <p class="post__desc">quia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nreprehenderit
+                    molestiae ut ut quas totam\nnostrum rerum est autem sunt rem eveniet architecto</p>
+            </li>
+        </ul>
+    </template>
+    
+    
+    <template class="comments-template">
+        <ul class="list-group">
+            <li class="comments__comment list-group-item">
+                <h4 class="comment__name">id labore ex et quam laborum</h4>
+                <a class="comment__email" href="mailto: Eliseo@gardner.biz">Email: Eliseo@gardner.biz</a>
+                <p class="comment__desc">laudantium enim quasi est quidem magnam voluptate ipsam eos\ntempora quo
+                    necessitatibus\ndolor quam autem quasi\nreiciendis et nam sapiente accusantium</p>
+            </li>
+        </ul>
+    </template>
+    
+    
+    <script src="js/main.js"></script>
+</body>
+</html>
